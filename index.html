@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>The Complete jQuery Course - Project Structure</title>
-</head>
-<body>
-  <div id="content">
-    <h1>The Complete jQuery Course - Project Structure</h1>
 
-    <div class="red-box">Red</div>
-    <div class="green-box">Green</div>
-    <div class="blue-box">Blue</div>
-    <div class="clear"></div>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>The Complete jQuery Course - Project Structure</title>
+  </head>
+<!--  -->
+  <body>
+    <div id="content">
+      <h1>The Complete jQuery Course - Project Structure</h1>
 
-    <h2>Hi, I'm the Base Project!</h2>
-    <p>Add elements here as you like to try out jQuery. This is your playground to test out anything that comes into your mind.</p>
-    <p><strong>OR:</strong> Copy this project structure into a new directory first to create separate playgrounds for animations, manipulations, event handlers etc.</p>
-  </div>
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script>
-    $(document).ready(function(){
-      
-      // This code will slowly fade out the element selected in the time specified inside the parentheses of
-      // of ".fadeOut()", then the rest of the html elments will occupy the space left by the faded out element;
-      // If you want to specified all the div elements with class 
-      $(".red-box").fadeOut(1000);
+      <div class="red-box">Red</div>
+      <div class="green-box">Green</div>
+      <div class="blue-box">Blue</div>
+      <div class="blue-box" style="display: none">Blue 2</div>
+      <div class="clear"></div>
 
-    });
-  </script>
-</body>
+      <h2>Hi, I'm the Base Project!</h2>
+      <p>Add elements here as you like to try out jQuery. This is your playground to test out anything that comes into
+        your mind.</p>
+      <p><strong>OR:</strong> Copy this project structure into a new directory first to create separate playgrounds for
+        animations, manipulations, event handlers etc.</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <!-- <script src="./js/1-fadeInOut.js"></script> -->
+    <!-- <script src="./js/2-hideShow.js"></script> -->
+    <script src="./js/3-slideUpDown.js"></script>
+
+
+  </body>
+
 </html>
